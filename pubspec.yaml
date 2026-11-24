@@ -1,0 +1,39 @@
+name: techhub_riverpod
+description: "Production-grade Clean Architecture Flutter Showcase with Riverpod, Offline-First Hive SSOT, and Gemini AI."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  flutter_riverpod: ^2.6.1
+  equatable: ^2.0.5
+
+  # Networking
+
+  # Offline Storage (Single Source of Truth)
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # Google Generative AI (Gemini)
+  google_generative_ai: ^0.4.6
+
+  # Utilities & UI
+  url_launcher: ^6.3.1
+  intl: ^0.19.0
+  cupertino_icons: ^1.0.8
+  dio: ^5.11.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  mocktail: ^1.0.4
+
+flutter:
+  uses-material-design: true
